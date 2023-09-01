@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="style.css">
+                <script src="main.js"></script>
+                <title>Heart Disease Prediction</title>
+            </head>
+            <body>
+                <h1>Heart Stroke Prediction</h1>
+                <form method="post" action="/predict">
+                    <label>Age: </label>
+                    <input type="text" name = "Age"><br><br>
+                    <label>ChestPainType_ATA: </label>
+                    <input type="text" name = "ChestPainType_ATA"><br><br>
+                    <label>ChestPainType_TA: </label>
+                    <input type="text" name = "ChestPainType_TA"><br><br>
+                    <label>ChestPainType_NAP: </label>
+                    <input type="text" name = "ChestPainType_NAP"><br><br>
+                    <label>ChestPainType_ASY: </label>
+                    <input type="text" name = "ChestPainType_ASY"><br><br>
+                    <label>RestingBP: </label>
+                    <input type="text" name = "RestingBP"><br><br>
+                    <label>Cholesterol: </label>
+                    <input type="text" name = "Cholesterol"><br><br>
+                    <label>FastingBS: </label>
+                    <input type="text" name = "FastingBS"><br><br>
+                    <label>RestingECG_Normal: </label>
+                    <input type="text" name = "RestingECG_Normal"><br><br>
+                    <label>RestingECG_ST: </label>
+                    <input type="text" name = "RestingECG_ST"><br><br>
+                    <label>RestingECG_LVH: </label>
+                    <input type="text" name = "RestingECG_LVH"><br><br>
+                    <label>ExerciseAngina_Y: </label>
+                    <input type="text" name = "ExerciseAngina_Y"><br><br>
+                    <label>Oldpeak: </label>
+                    <input type="text" name = "Oldpeak"><br><br>
+                    <label>ST_Slope_Flat: </label>
+                    <input type="text" name = "ST_Slope_Flat"><br><br>
+                    <label>ST_Slope_Down: </label>
+                    <input type="text" name = "ST_Slope_Down"><br><br>
+
+                    <input type="submit" value="Predict"><br><br>
+                </form>
+            </body>
+        </html>
